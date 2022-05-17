@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '16'
       - run: npm install 
-      - run: npm run build -- ./esm-talk.md --base /talks/
+      - run: npm run build -- ./monorepo.md --base /talks/
       # - run: npm run export
 
       - name: Deploy
